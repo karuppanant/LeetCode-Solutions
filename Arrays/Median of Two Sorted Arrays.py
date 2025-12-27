@@ -3,9 +3,9 @@ Problem Name : Median of Two Sorted Arrays
 LeetCode Link : https://leetcode.com/problems/median-of-two-sorted-arrays/submissions/1791123381/?envType=problem-list-v2&envId=array
 
 Approach : Binary Search on Partition (Optimized Approach)
-Always apply binary search on the smaller array to reduce time complexity.
-Partition both arrays such that left halves contain half of the total elements.
-Adjust partitions until left-side max ≤ right-side min, then compute the median.
+    Always apply binary search on the smaller array to reduce time complexity.
+    Partition both arrays such that left halves contain half of the total elements.
+    Adjust partitions until left-side max ≤ right-side min, then compute the median.
 
 Complexity:
 Time Complexity: O(log(min(n, m)))
